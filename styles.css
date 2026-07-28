@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(205, 209, 231);
+}
+h1 {
+  color: rgb(0, 12, 78);
+  font-family: Arial;
+}
+h2 {
+  color: rgb(35, 53, 150);
+  font-family: Arial;
+}
+p, table, li {
+  color: rgb(46, 63, 160);
+}
+th {
+    color:rgb(0, 12, 78)
+}
+section {
+  background-color: rgb(192, 198, 232);
+  padding: 40px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;  
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+}
+
+.content.expanded {
+  max-height: 200px; /* Adjust this value to fit your content */
+}
